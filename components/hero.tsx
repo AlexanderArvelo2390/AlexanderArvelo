@@ -42,6 +42,17 @@ export function Hero({ profile }: HeroProps) {
             >
               <Link href="/contacto">Contactar</Link>
             </Button>
+                
+                <Button
+                   
+              size="lg"
+             
+                  className="bg-white/10 backdrop-blur-sm flex items-center border-white/30 text-white hover:bg-white/20 font-semibold px-8"
+                >
+                 <Link href="/CV-Alexander-Arvelo .pdf">Ver CV</Link>
+                  
+                </Button>
+            
           </div>
         </div>
 

@@ -19,7 +19,15 @@ export default function ContactPage() {
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Contact Info */}
-            <div className="space-y-8">
+              <div className="space-y-8">
+                <a
+                  href="/CV-Alexander-Arvelo .pdf"
+                  download
+                  className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all bg-primary text-primary-foreground shadow-xsbg-primary hover:bg-primary/90  px-6 py-3 mb-6"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 16v-8m0 8l-4-4m4 4l4-4m-8 8h8a2 2 0 002-2V7a2 2 0 00-2-2h-8a2 2 0 00-2 2v9a2 2 0 002 2z" /></svg>
+                  Descarga CV
+                </a>
               <div>
                 <h2 className="font-serif text-2xl font-bold text-foreground mb-6">Información de Contacto</h2>
                 <div className="space-y-4">
