@@ -1,0 +1,90 @@
+{
+  "profile": {
+    "name": "Alexander Arvelo",
+    "title": "Desarrollador Full Stack",
+    "tagline": "Construyendo Soluciones Innovadoras",
+    "description": "Desarrollador apasionado por crear experiencias web excepcionales. Especializado en JavaScript, React, Next.js y tecnologías modernas.",
+    "email": "alexander.arvelo2390@gmail.com",
+    "github": "https://github.com/tuusuario",
+    "linkedin": "https://linkedin.com/in/tuusuario",
+    "twitter": "https://twitter.com/tuusuario"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "SIDOM",
+      "description": "Desarrollo completo del sitio web institucional con stack moderno CMS híbrido.",
+      "image": "/sidom.png?height=400&width=600",
+      "technologies": ["Next.js", "React", "Strapi", "Tailwind CSS","Vite"],
+      "liveUrl": "https://www.sidomsuite.com/",
+      "detailedDescription": "🧩 Sección “Experiencia” Desarrollador Fullstack Freelance Proyecto Institucional – SIDOM Marzo 2025 - Presente Participación activa en el desarrollo del sitio institucional de SIDOM, utilizando tecnologías como React.js, Next.js, Vite, TailwindCSS y Strapi. Encargado de: Maquetación y programación de secciones web responsivas desde plantilla base. Integración de CMS Headless (Strapi) y visual (Builder.io) para marketing. Consumo de APIs dinámicas para renderizado de contenidos estructurados. Implementación de microinteracciones y diseño visual adaptado a dispositivos. Configuración de pruebas e2e con Cypress y Jest para validación funcional. Integraciones externas: Google Tag Manager, Hubspot (opcional), login JWT.💡 Sección “Proyectos” Sitio Web Institucional SIDOM Proyecto colaborativo con un equipo multidisciplinario orientado al desarrollo escalable de la plataforma institucional de SIDOM. Implementación de soluciones tecnológicas modernas, gestión de contenidos, diseño UI responsivo y performance optimizada. 💻 Tecnologías: React, Next.js, Vite, Strapi, TailwindCSS, Builder.io, Cypress, Jest 📎 🔧 Sección “Aptitudes”React.js / Next.js / ViteTailwindCSS / CSS ModulesStrapi / Builder.io /Node.js / Express / Cypress / Jest Responsive Design / Animaciones UI / API REST / Integraciones externas Metodologías ágiles / Trabajo en equipo / Control de versiones (Git, Bitbucket)",
+      "features": [
+        "Autenticación segura de usuarios",
+        "Integración con Strapi para pagos",
+        "Panel de administración",
+        "Gestión de inventario en tiempo real",
+        "Diseño responsive"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "meucci",
+      "description": "Aplicación de gestión de tareas con colaboración en tiempo real y notificaciones.",
+      "image": "/merucci.PNG?height=400&width=600",
+      "technologies": [ "Vue","Quasar"],
+      "liveUrl": "https://meucci.com.ar/",
+      "detailedDescription": "Aplicación de gestión de proyectos y tareas que permite a los equipos colaborar en tiempo real. Incluye tableros Kanban, asignación de tareas, seguimiento de progreso y notificaciones instantáneas mediante WebSockets.",
+      "features": [
+        "Tableros Kanban interactivos",
+        "Colaboración en tiempo real",
+        "Sistema de notificaciones",
+        "Asignación de tareas",
+        "Seguimiento de progreso"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "EventMedia – App de Depósito",
+      "description": "Dashboard del clima con pronósticos detallados y visualización de datos meteorológicos.",
+      "image": "/event.png?height=400&width=600",
+      "technologies": ["TypeScript", "React Native"],
+      "liveUrl": "https://ejemplo-weather.com",
+      "detailedDescription": "App interna en React Native para mejorar el flujo de trabajo en el depósito técnico de una empresa de espectáculos. Gestión de equipos, inventario y logística operativa.",
+      "features": [
+        "Pronósticos de 7 días",
+        "Gráficos interactivos",
+        "Búsqueda por ubicación",
+        "Datos en tiempo real",
+        "Alertas meteorológicas"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "capitalReds",
+      "description": "Sistema de gestión de contenido para portafolios creativos con editor visual.",
+      "image": "/capitalReds.PNG?height=400&width=600",
+      "technologies": ["Next.js", "Sanity.io", "Tailwind CSS", "TypeScript"],
+      "liveUrl": "https://ejemplo-cms.com",
+      "detailedDescription": "CMS headless personalizado para portafolios creativos. Permite a diseñadores y desarrolladores gestionar su contenido fácilmente con un editor visual intuitivo, preview en tiempo real y optimización automática de imágenes.",
+      "features": [
+        "Editor visual drag & drop",
+        "Preview en tiempo real",
+        "Optimización de imágenes",
+        "SEO integrado",
+        "Múltiples plantillas"
+      ]
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Tailwind CSS",
+    "MongoDB",
+    "PostgreSQL",
+    "Git",
+    "REST APIs"
+  ]
+}
