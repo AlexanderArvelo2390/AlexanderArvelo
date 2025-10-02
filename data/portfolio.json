@@ -12,35 +12,38 @@
   "projects": [
     {
       "id": 1,
-      "title": "SIDOM",
+      "title": "Sidom Suite",
       "description": "Desarrollo completo del sitio web institucional con stack moderno CMS híbrido.",
       "image": "/sidom.png?height=400&width=600",
       "technologies": ["Next.js", "React", "Strapi", "Tailwind CSS","Vite"],
       "liveUrl": "https://www.sidomsuite.com/",
       "detailedDescription": "🧩 Sección “Experiencia” Desarrollador Fullstack Freelance Proyecto Institucional – SIDOM Marzo 2025 - Presente Participación activa en el desarrollo del sitio institucional de SIDOM, utilizando tecnologías como React.js, Next.js, Vite, TailwindCSS y Strapi. Encargado de: Maquetación y programación de secciones web responsivas desde plantilla base. Integración de CMS Headless (Strapi) y visual (Builder.io) para marketing. Consumo de APIs dinámicas para renderizado de contenidos estructurados. Implementación de microinteracciones y diseño visual adaptado a dispositivos. Configuración de pruebas e2e con Cypress y Jest para validación funcional. Integraciones externas: Google Tag Manager, Hubspot (opcional), login JWT.💡 Sección “Proyectos” Sitio Web Institucional SIDOM Proyecto colaborativo con un equipo multidisciplinario orientado al desarrollo escalable de la plataforma institucional de SIDOM. Implementación de soluciones tecnológicas modernas, gestión de contenidos, diseño UI responsivo y performance optimizada. 💻 Tecnologías: React, Next.js, Vite, Strapi, TailwindCSS, Builder.io, Cypress, Jest 📎 🔧 Sección “Aptitudes”React.js / Next.js / ViteTailwindCSS / CSS ModulesStrapi / Builder.io /Node.js / Express / Cypress / Jest Responsive Design / Animaciones UI / API REST / Integraciones externas Metodologías ágiles / Trabajo en equipo / Control de versiones (Git, Bitbucket)",
       "features": [
-        "Autenticación segura de usuarios",
-        "Integración con Strapi para pagos",
-        "Panel de administración",
-        "Gestión de inventario en tiempo real",
+        "Consumo de APIs dinámicas para renderizado de contenidos estructurados.",
+        "Implementación de microinteracciones y diseño visual adaptado a distintos dispositivos.",
+        "Configuración de pruebas end-to-end con Cypress y unitarias con Jest para validación funcional.",
+        "Integraciones externas: Google Tag Manager, Hubspot (opcional), y sistema de login con JWT.",
+        "Integración de CMS Headless (Strapi) y sistema visual con Builder.io para el equipo de marketing.",
+        "Maquetación y programación de secciones web responsivas desde plantilla base.",
         "Diseño responsive"
       ]
     },
     {
       "id": 2,
-      "title": "meucci",
-      "description": "Aplicación de gestión de tareas con colaboración en tiempo real y notificaciones.",
+      "title": "Meucci",
+      "description": "Maquetación de componentes con Vue y Quasar",
       "image": "/merucci.PNG?height=400&width=600",
       "technologies": [ "Vue","Quasar"],
       "liveUrl": "https://meucci.com.ar/",
-      "detailedDescription": "Aplicación de gestión de proyectos y tareas que permite a los equipos colaborar en tiempo real. Incluye tableros Kanban, asignación de tareas, seguimiento de progreso y notificaciones instantáneas mediante WebSockets.",
+      "detailedDescription": "Participé en el desarrollo de una aplicación web colaborativa, encargándome de la maquetación de componentes clave utilizando Vue.js y el Quasar Framework para los estilos. Mi trabajo se centró en construir interfaces limpias, responsivas y reutilizables, adaptadas a distintos dispositivos y necesidades del usuario. Durante el proyecto, apliqué buenas prácticas de diseño y desarrollo frontend, optimizando la estructura visual y funcional de cada componente. Esta experiencia fortaleció mi dominio de Vue y Quasar, y reafirmó mi compromiso con la calidad y la eficiencia en cada entrega.",
       "features": [
-        "Tableros Kanban interactivos",
-        "Colaboración en tiempo real",
-        "Sistema de notificaciones",
-        "Asignación de tareas",
-        "Seguimiento de progreso"
+        "Maquetación de componentes con Vue y Quasar",
+        "Uso de Jira para planificación y seguimiento",
+        "Implementación de buenas prácticas de desarrollo",
+        "Trabajo colaborativo con enfoque ágil",
+        "Documentación clara y estructurada"
       ]
+
     },
     {
       "id": 3,
@@ -60,19 +63,40 @@
     },
     {
       "id": 4,
-      "title": "capitalReds",
-      "description": "Sistema de gestión de contenido para portafolios creativos con editor visual.",
+      "title": "CapitalReds",
+      "description": "App para gestionar estadísticas y métricas de béisbol, desarrollada con Next.js, TypeScript y TailwindCSS.",
       "image": "/capitalReds.PNG?height=400&width=600",
       "technologies": ["Next.js", "Sanity.io", "Tailwind CSS", "TypeScript"],
       "liveUrl": "https://ejemplo-cms.com",
-      "detailedDescription": "CMS headless personalizado para portafolios creativos. Permite a diseñadores y desarrolladores gestionar su contenido fácilmente con un editor visual intuitivo, preview en tiempo real y optimización automática de imágenes.",
-      "features": [
-        "Editor visual drag & drop",
-        "Preview en tiempo real",
-        "Optimización de imágenes",
-        "SEO integrado",
-        "Múltiples plantillas"
-      ]
+      "detailedDescription": "Aplicación web desarrollada con Next.js, TypeScript y TailwindCSS, orientada a la gestión integral de un equipo de béisbol. La plataforma permite visualizar y administrar métricas deportivas, estadísticas de jugadores, y resultados de partidos, todo en una interfaz moderna y responsiva. Este proyecto está diseñado para ser escalable, con una arquitectura modular que facilita la incorporación de nuevas funcionalidades como rankings, historiales, y comparativas. Actualmente se encuentra en proceso de desarrollo activo, con foco en la optimización de la experiencia del usuario y la organización eficiente de los datos.",
+     "features": [
+             "Visualización de estadísticas por jugador",
+              "Registro de resultados y métricas por partido",
+              "Interfaz responsiva y adaptable",
+              "Arquitectura modular y escalable",
+              "Organización eficiente de datos deportivos"
+     ]
+             
+
+    },
+       {
+      "id": 5,
+      "title": "Fit-U",
+      "description": "Aplicación web fullstack desarrollada en equipo, con enfoque en seguridad, escalabilidad y gestión eficiente de datos.",
+      "image": "/fit.png?height=400&width=600",
+      "technologies": ["Next.js", "Zustand", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB","JWT" ,"Firebase"],
+      "liveUrl": "https://ejemplo-cms.com",
+      "detailedDescription": "Participé en el desarrollo de una aplicación web completa junto a un equipo de seis desarrolladores, combinando tecnologías modernas y buenas prácticas para garantizar seguridad, escalabilidad y rendimiento. Mi rol abarcó tanto el frontend como el backend, destacando por mi autonomía, capacidad de adaptación y comunicación efectiva dentro del equipo. En el frontend, trabajé con TypeScript, Zustand, TailwindCSS y Next.js, enfocándome en la creación de interfaces responsivas y componentes reutilizables. En el backend, implementé funcionalidades con Express y Node.js, integrando autenticación segura con JWT y servicios en la nube mediante Firebase. La gestión de datos se realizó con PostgreSQL y Sequelize, asegurando una estructura sólida y eficiente. Este proyecto fortaleció mi experiencia en entornos colaborativos, resolución de problemas técnicos y adaptación a nuevas herramientas y desafíos.",
+     "features": [
+    "Trabajo en equipo y colaboración efectiva",
+    "Resolución de problemas técnicos en tiempo real",
+    "Adaptabilidad a nuevos desafíos y tecnologías",
+    "Autonomía en el desarrollo de módulos independientes",
+    "Integración segura con JWT y Firebase",
+    "Gestión de datos con PostgreSQL y Sequelize"
+  ]
+             
+
     }
   ],
   "skills": [

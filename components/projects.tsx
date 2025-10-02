@@ -40,8 +40,11 @@ export function Projects({ projects }: ProjectsProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {projects.map((project) => (
               <Card
+               
                 key={project.id}
-                className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-[1.02] bg-card"
+                className="overflow-hidden hover:shadow-xl transition-all border-none duration-300 hover:scale-[1.02] bg-card"
+                 
+                
               >
                 <CardHeader className="p-0">
                   <div className="relative h-48 w-full overflow-hidden">
@@ -49,7 +52,7 @@ export function Projects({ projects }: ProjectsProps) {
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
                       fill
-                      className="object-cover"
+                      className="object-cover w-full "
                     />
                   </div>
                 </CardHeader>
