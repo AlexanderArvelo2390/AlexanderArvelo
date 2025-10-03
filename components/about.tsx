@@ -2,7 +2,7 @@ import React from "react";
 
 export function About() {
   return (
-    <section className="py-20 px-4 bg-muted/30">
+    <section className="py-20 px-4 bg-muted/30" data-aos="fade-up">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-4">Sobre mí</h2>

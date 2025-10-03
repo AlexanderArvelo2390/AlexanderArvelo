@@ -1,8 +1,12 @@
 import type React from "react"
+import { useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 import type { Metadata } from "next"
 import { Playfair_Display, Source_Sans_3 } from "next/font/google"
 import "./globals.css"
 import { Navigation } from "@/components/navigation"
+import AOSInit from "@/components/AOSInit"
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -24,17 +28,14 @@ export const metadata: Metadata = {
   generator: "v0.app",
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${playfair.variable} ${sourceSans.variable}`}>
       <body className="font-sans antialiased">
+        <AOSInit />
         <Navigation />
         {children}
       </body>
     </html>
-  )
+  );
 }

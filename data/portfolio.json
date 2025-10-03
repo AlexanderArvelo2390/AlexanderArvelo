@@ -51,7 +51,7 @@
       "description": "Dashboard del clima con pronósticos detallados y visualización de datos meteorológicos.",
       "image": "/event.png?height=400&width=600",
       "technologies": ["TypeScript", "React Native"],
-      "liveUrl": "https://ejemplo-weather.com",
+      "liveUrl": "",
       "detailedDescription": "App interna en React Native para mejorar el flujo de trabajo en el depósito técnico de una empresa de espectáculos. Gestión de equipos, inventario y logística operativa.",
       "features": [
         "Pronósticos de 7 días",
@@ -67,7 +67,7 @@
       "description": "App para gestionar estadísticas y métricas de béisbol, desarrollada con Next.js, TypeScript y TailwindCSS.",
       "image": "/capitalReds.PNG?height=400&width=600",
       "technologies": ["Next.js", "Sanity.io", "Tailwind CSS", "TypeScript"],
-      "liveUrl": "https://ejemplo-cms.com",
+      "liveUrl": "",
       "detailedDescription": "Aplicación web desarrollada con Next.js, TypeScript y TailwindCSS, orientada a la gestión integral de un equipo de béisbol. La plataforma permite visualizar y administrar métricas deportivas, estadísticas de jugadores, y resultados de partidos, todo en una interfaz moderna y responsiva. Este proyecto está diseñado para ser escalable, con una arquitectura modular que facilita la incorporación de nuevas funcionalidades como rankings, historiales, y comparativas. Actualmente se encuentra en proceso de desarrollo activo, con foco en la optimización de la experiencia del usuario y la organización eficiente de los datos.",
      "features": [
              "Visualización de estadísticas por jugador",
@@ -85,7 +85,7 @@
       "description": "Aplicación web fullstack desarrollada en equipo, con enfoque en seguridad, escalabilidad y gestión eficiente de datos.",
       "image": "/fit.png?height=400&width=600",
       "technologies": ["Next.js", "Zustand", "Tailwind CSS", "TypeScript", "Node.js", "Express", "MongoDB","JWT" ,"Firebase"],
-      "liveUrl": "https://ejemplo-cms.com",
+      "liveUrl": "https://final-henry-g6.netlify.app/",
       "detailedDescription": "Participé en el desarrollo de una aplicación web completa junto a un equipo de seis desarrolladores, combinando tecnologías modernas y buenas prácticas para garantizar seguridad, escalabilidad y rendimiento. Mi rol abarcó tanto el frontend como el backend, destacando por mi autonomía, capacidad de adaptación y comunicación efectiva dentro del equipo. En el frontend, trabajé con TypeScript, Zustand, TailwindCSS y Next.js, enfocándome en la creación de interfaces responsivas y componentes reutilizables. En el backend, implementé funcionalidades con Express y Node.js, integrando autenticación segura con JWT y servicios en la nube mediante Firebase. La gestión de datos se realizó con PostgreSQL y Sequelize, asegurando una estructura sólida y eficiente. Este proyecto fortaleció mi experiencia en entornos colaborativos, resolución de problemas técnicos y adaptación a nuevas herramientas y desafíos.",
      "features": [
     "Trabajo en equipo y colaboración efectiva",

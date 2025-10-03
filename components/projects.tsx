@@ -27,7 +27,7 @@ export function Projects({ projects }: ProjectsProps) {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
 
   return (
-    <>
+    <div data-aos="fade-up">
       <section id="proyectos" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12">
@@ -72,12 +72,19 @@ export function Projects({ projects }: ProjectsProps) {
                   </div>
                 </CardContent>
                 <CardFooter className="p-6 pt-0 flex gap-3">
-                  <Button asChild className="flex-1 bg-primary hover:bg-primary/90">
-                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                  {project.liveUrl ? (
+                    <Button asChild className="flex-1 bg-primary hover:bg-primary/90">
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Ver Proyecto
+                      </a>
+                    </Button>
+                  ) : (
+                    <Button disabled className="flex-1 bg-muted text-muted-foreground cursor-not-allowed">
                       <ExternalLink className="mr-2 h-4 w-4" />
-                      Ver Proyecto
-                    </a>
-                  </Button>
+                      Página en mantenimiento
+                    </Button>
+                  )}
                   <Button
                     variant="outline"
                     className="flex-1 bg-transparent"
@@ -92,8 +99,7 @@ export function Projects({ projects }: ProjectsProps) {
           </div>
         </div>
       </section>
-
       <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
-    </>
+    </div>
   )
 }

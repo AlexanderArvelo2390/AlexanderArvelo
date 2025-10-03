@@ -13,7 +13,7 @@ interface HeroProps {
 
 export function Hero({ profile }: HeroProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" data-aos="fade-up">
       {/* Background video with overlay */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <video

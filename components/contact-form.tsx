@@ -31,21 +31,20 @@ export function ContactForm() {
         body: JSON.stringify(formData),
       });
 
-      if (res.ok) {
-        alert("¡Mensaje enviado! Gracias por contactarme. Te responderé pronto.");
-        toast({
-          title: "¡Mensaje enviado!",
-          description: "Gracias por contactarme. Te responderé pronto.",
-        });
-        setFormData({ name: "", email: "", subject: "", message: "" });
-      } else {
-        const data = await res.json();
-        alert("Error: " + (data.error || "No se pudo enviar el mensaje. Intenta de nuevo."));
-        toast({
-          title: "Error",
-          description: data.error || "No se pudo enviar el mensaje. Intenta de nuevo.",
-        });
-      }
+   if (res.ok) {
+  toast({
+    title: "¡Mensaje enviado! 🚀",
+    description: "Gracias por contactarme. Te responderé pronto.",
+  });
+  setFormData({ name: "", email: "", subject: "", message: "" });
+} else {
+  const data = await res.json();
+  toast({
+    title: "Error ❌",
+    description: data.error || "No se pudo enviar el mensaje. Intenta de nuevo.",
+  });
+}
+
     } catch {
       toast({
         title: "Error",
@@ -63,7 +62,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6" data-aos="fade-up">
       <div className="space-y-2">
         <Label htmlFor="name">Nombre</Label>
         <Input

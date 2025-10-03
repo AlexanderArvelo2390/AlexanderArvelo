@@ -16,7 +16,7 @@ export function Footer({ profile }: FooterProps) {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-serif text-2xl font-bold mb-4">{"<Dev />"}</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">{"<Dev Full Stack />"}</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Desarrollador apasionado por crear experiencias web excepcionales.
             </p>

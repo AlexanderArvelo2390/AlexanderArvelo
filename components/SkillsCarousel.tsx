@@ -12,6 +12,7 @@ const frontendSkills = [
   { src: "/assets/typescript-svgrepo-com.svg", alt: "TypeScript" },
   { src: "/assets/javascript-svgrepo-com.svg", alt: "JavaScript" },
   { src: "/assets/tailwindcss-svgrepo-com.svg", alt: "TailwindCSS" },
+   {src:"astro-logo-dark.svg", alt:"astro"},
   // Agrega más logos si tienes
 ];
 
@@ -28,6 +29,7 @@ const backendSkills = [
   { src: "/php-svgrepo-com.svg", alt: "PHP" },
   { src: "/firebase-svgrepo-com.svg", alt: "Firebase" },
   { src: "/strapi-svgrepo-com.svg", alt: "strapi" },
+ 
   // Agrega más logos si tienes
 ];
 
