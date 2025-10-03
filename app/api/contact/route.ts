@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-export async function POST(req:Request) {
+export async function POST(req: Request) {
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
@@ -32,7 +32,7 @@ export async function POST(req:Request) {
 
     <!-- Footer -->
     <div style="background-color: #f1f1f1; color: #555; text-align: center; padding: 15px; font-size: 12px;">
-      <p style="margin: 0;">Este mensaje fue enviado desde el formulario de contacto de tu sitio web.</p>
+      <p style="margin: 0;">Este mensaje fue enviado desde el formulario de contacto de tu portafolio.</p>
     </div>
   </div>
 `
