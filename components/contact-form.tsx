@@ -32,18 +32,19 @@ export function ContactForm() {
       });
 
    if (res.ok) {
-  toast({
-    title: "¡Mensaje enviado! 🚀",
-    description: "Gracias por contactarme. Te responderé pronto.",
-  });
-  setFormData({ name: "", email: "", subject: "", message: "" });
-} else {
-  const data = await res.json();
-  toast({
-    title: "Error ❌",
-    description: data.error || "No se pudo enviar el mensaje. Intenta de nuevo.",
-  });
-}
+    alert("¡Correo enviado! Gracias por contactarme. Te responderé pronto.");
+    toast({
+      title: "¡Mensaje enviado! 🚀",
+      description: "Gracias por contactarme. Te responderé pronto.",
+    });
+    setFormData({ name: "", email: "", subject: "", message: "" });
+  } else {
+    const data = await res.json();
+    toast({
+      title: "Error ❌",
+      description: data.error || "No se pudo enviar el mensaje. Intenta de nuevo.",
+    });
+  }
 
     } catch {
       toast({
